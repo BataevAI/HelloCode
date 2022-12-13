@@ -1,3 +1,8 @@
 ﻿
 
-Console.WriteLine("Hello, World!");
+int numberA = new Random().Next(1, 10);
+Console.WriteLine("numberA" + " = " + numberA);
+int numberB = new Random().Next(1, 10);
+Console.WriteLine("numberB" + " = " + numberB);
+
+Console.WriteLine(numberA / numberB);
